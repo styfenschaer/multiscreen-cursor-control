@@ -1,3 +1,5 @@
+# Author: Styfen Schaer <schaers@student.ethz.ch> 
+
 import cv2
 import pyautogui
 import time
