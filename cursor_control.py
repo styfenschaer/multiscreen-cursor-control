@@ -44,7 +44,7 @@ try:
 				cv2.rectangle(frame, (x, y), (x+w, y+h), (0, 0, 129), 2)
 				label = 'Distance: {:.2f}m'.format(dist)
 				cv2.putText(frame, label,
-						(frame.shape[1]-200, frame.shape[0]-20), 
+						(frame.shape[1]-230, frame.shape[0]-20), 
 						cv2.FONT_ITALIC, 0.8, (255, 255, 255), 2)
 				cv2.imshow('frame', frame)
 		except:
