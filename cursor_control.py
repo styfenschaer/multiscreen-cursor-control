@@ -1,4 +1,3 @@
-
 # Author: Styfen Schaer <schaers@student.ethz.ch> 
 
 import cv2
