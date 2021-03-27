@@ -22,7 +22,7 @@ cv = cv2.VideoCapture(0)
 face_cascade = cv2.CascadeClassifier(cv2.data.haarcascades + 'haarcascade_profileface.xml')
 
 
-""" Run script and release all resources and close windows when script gets aborted """
+""" Run script and release all resources and close windows when script gets aborted/closed"""
 try:
 	dist = dist_lim
 	position = 0
